@@ -5,10 +5,10 @@
   "sources": {
     "vector": {
       "type": "vector",
-      "url": "https://api.digitransit.fi/map/v2/hsl-vector-map/index.json"
+      "url": "https://api.digitransit.fi/map/v2/hsl-vector-map/index.json?digitransit-subscription-key={key}"
     },
     "parkandride": {
-      "url": "https://api.digitransit.fi/map/v2/hsl-parkandride-map/index.json",
+      "url": "https://api.digitransit.fi/map/v2/hsl-parkandride-map/index.json?digitransit-subscription-key={key}",
       "type": "vector"
     },
     "borders": {
@@ -36,7 +36,7 @@
       "type": "geojson"
     },
     "ticket-sales": {
-      "url": "https://api.digitransit.fi/map/v2/hsl-ticket-sales-map/index.json",
+      "url": "https://api.digitransit.fi/map/v2/hsl-ticket-sales-map/index.json?digitransit-subscription-key={key}",
       "type": "vector"
     },
     "stops": {
@@ -48,7 +48,7 @@
       "type": "vector"
     },
     "citybike": {
-      "url": "https://api.digitransit.fi/map/v2/hsl-citybike-map/index.json",
+      "url": "https://api.digitransit.fi/map/v2/hsl-citybike-map/index.json?digitransit-subscription-key={key}",
       "type": "vector"
     },
     "terminals": {
